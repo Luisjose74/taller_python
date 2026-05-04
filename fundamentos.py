@@ -12,24 +12,17 @@ lineas
 print(type("Hello world")) #tipo 'str'
 print(type(1)) #tipo 'int'
 
-#Tipo de Escritura de Variables
+#ACTIVIDAD 1:Tarjeta de Identificacion Digital
 Nombre="Jhon Alexander"
 Apellido="Barrero Barrera"
 Edad=32
 Altura=1.70
 Activo=True
 Correo = "johnalexanderbarrero@gmail.com"
-Telefono = 5555555555
+Telefono = "5555555555"
 Cedula = 123456789
-
-#imprimir el tipo de dato y la variable
-print(type(Nombre),Nombre)#Se coloca una coma para que muestre la informacion del dato
-print(type(Apellido),Apellido)
-print(type(Edad),Edad)
-print(type(Activo),Activo)
-print(type(Correo),Correo)
-print(type(Telefono),Telefono)
-
+ficha = "3321349"
+programa = "ADSO"
 
 #Casting (Casteo) Conversion de el tipo de dato a una variable ejemlp de un str a un int
 Telefono_int = int(Telefono)
