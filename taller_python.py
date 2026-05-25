@@ -238,3 +238,5 @@ while True:
         break
     else:
         print("Opcion no valida.")
+
+    input("Presiona Enter para continuar...")
